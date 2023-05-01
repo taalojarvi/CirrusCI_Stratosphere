@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 # Automation script for Building Kernels on Cirrus CI
 
-git clone --depth 1 -b staging/LA.UM.9.x git@github.com:Stratosphere-Kernel/android_kernel_xiaomi_surya.git surya
+git clone --depth 1 -b staging/LA.UM.9.x https://github.com/Stratosphere-Kernel/android_kernel_xiaomi_surya surya
 cd surya/
 
 # Download latest Neutron clang from their repos.
